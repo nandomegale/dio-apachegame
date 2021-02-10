@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apache</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="background-game">
+            <div id="start" onclick="startGame()">
+                <h1>Apache</h1>
+                <p>Utilize a tecla ↑ para movimentar o helicóptero para cima, a tela ↓ para movimentar o helicóptero
+                    para baixo e a tecla ESPAÇO para atirar</p>
+                <p>Clique aqui para iniciar!!</p>
+            </div>
+        </div>
+    </div>
+
+    <audio src="audios/som.mp3" preload="auto" id="fireAudio"></audio>
+    <audio src="audios/explosao.mp3" preload="auto" id="explosionAudio"></audio>
+    <audio src="audios/musica_fundo.mp3" preload="auto" id="backgroundAudio"></audio>
+    <audio src="audios/gameover.mp3" preload="auto" id="gameoverAudio"></audio>
+    <audio src="audios/perdido.mp3" preload="auto" id="lostFriendAudio"></audio>
+    <audio src="audios/resgate.mp3" preload="auto" id="savedFriendAudio"></audio>
+
+    <script src="script.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-collision.min.js"></script>
+</body>
+
+</html>
